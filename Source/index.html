@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>X - by d2phap</title>
+    <title>Flip the Cards - by d2phap</title>
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
 
@@ -14,31 +14,32 @@
 <body>
 
     <div class="card-wrapper">
-        <div class="flip-container" data-id="1">
+        <div id="card-0" class="flip-container" data-id="0">
             <div class="flipper">
                 <div class="front"></div>
-                <div class="back" data-num="3"></div>
+                <div class="back" data-value="3"></div>
             </div>
         </div>
 
-        <div class="flip-container" data-id="2">
+        <div id="card-1" class="flip-container" data-id="1">
             <div class="flipper">
                 <div class="front"></div>
-                <div class="back" data-num="9"></div>
+                <div class="back" data-value="9"></div>
             </div>
         </div>
 
-        <div class="flip-container" data-id="3">
+        <div id="card-2" class="flip-container" data-id="2">
             <div class="flipper">
                 <div class="front"></div>
-                <div class="back" data-num="4"></div>
+                <div class="back" data-value="4"></div>
             </div>
         </div>
     </div>
 
 
     <center>
-        <button id="btnReplay">Replay</button>
+        <button class="btn hidden" id="btnPunishment">Show Punishment</button>
+        <button class="btn hidden" id="btnReplay">Replay</button>
     </center>
 
 
