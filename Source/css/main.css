@@ -7,7 +7,12 @@ html {
 }
 
 body {
-	margin: 30px auto;
+	margin: 20px;
+	background-color: #585858;
+}
+code {
+	color: #585858;
+	font-size: 70%;
 }
 
 /* simple */
@@ -47,7 +52,7 @@ body {
 /* END: Accommodating for IE */
 .flip-container, .front, .back {
 	width: 100%;
-	height: 310px;
+	height: 180px;
 }
 .flipper {
 	-webkit-transition: 0.6s;
@@ -96,12 +101,12 @@ body {
 .front::before,
 .back::before {
 	content: "?";
-	color: #fff;
-	font-size: 200px;
+	color: #ddd;
+	font-size: 90px;
 	display: block;
 	text-align: center;
 	position: absolute;
-	top: 0;
+	top: 20px;
 	bottom: 0;
 	left: 0;
 	right:0;
@@ -115,7 +120,7 @@ body {
 	transform: rotateY(-180deg);
 
 	border-radius: 2px;
-	background-color: #fff;
+	background-color: #ddd;
 	border: 5px solid #000;
 }
 .back::before {
@@ -124,7 +129,15 @@ body {
 }
 
 
-
+.title {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: #ddd;
+}
+.title > span {
+	color: #f0f;
+}
 .card-wrapper {
 	text-align: center;
 	display: -webkit-box;
@@ -135,20 +148,20 @@ body {
 }
 .card-wrapper > .flip-container {
 	width: 30%;
-	max-width: 250px;
-	margin: 0 10px;
+	max-width: 120px;
+	margin: 0 5px;
 	display: inline-block;
 }
 
 
 .btn {
 	display: inline-block;
-	margin-top: 30px;
+	margin-top: 20px;
 	font-size: 20px;
-	padding: 20px 40px;
+	padding: 10px 30px;
 	border: 3px solid #000;
 	border-radius: 2px;
-	background-color: #fff;
+	background-color: #ddd;
 
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -158,7 +171,7 @@ body {
 }
 .btn:hover, .btn:focus {
 	background-color: #000;
-	color: #fff;
+	color: #ddd;
 	outline: none;
 }
 .btn:active,
@@ -176,24 +189,20 @@ body {
 
 .game-end .flip-container {
 	margin: 0;
-	width: 750px;
-	max-width: 750px;
+	width: 360px;
+	max-width: 360px;
 }
 .game-end .flip-container:first-child,
 .game-end .flip-container:last-child {
 	display: none;
 }
 .game-end.punishment .back {
-	font-size: 50px;
-	padding-top: 20px;
+	font-size: 35px;
+	padding-top: 10px;
 }
 .game-end.punishment .back::before {
-	font-size: 100px;
-	padding-top: 150px;
+	font-size: 50px;
+    padding-top: 80px;
 }
-
-
-
-
 
 
