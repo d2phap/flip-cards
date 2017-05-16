@@ -1,6 +1,5 @@
 /* 
 *  Author: Phap Duong Dieu
-*  Modified date: 3rd Sep 2016
 */
 "use strict";
 
@@ -9,45 +8,7 @@ var _timer;
 var _punishments = [
     "Do nothing",
     "Bite the ears",
-    "Bite the ears",
     "Give a tight hug",
-    "Give a tight hug",
-    "Squeeze the butt<br/><code>(hehe!)</code>",
-    "Squeeze the butt<br/><code>(hehe!)</code>",
-    "Squeeze the butt<br/><code>(hehe!)</code>",
-    "Lick the nipples",
-    "Lick the nipples",
-    "Lick the nipples",
-    "Lick the nipples",
-    "Hold the dick<br/><code>(:scared:)</code>",
-    "Hold the dick<br/><code>(:scared:)</code>",
-    "French kiss<br/><code>(wow!)</code>",
-    "French kiss<br/><code>(wow!)</code>",
-    "French kiss<br/><code>(wow!)</code>",
-    "French kiss<br/><code>(wow!)</code>", 
-    "French kiss<br/><code>(wow!)</code>",   
-    "Tickle the armpits<br/><code>(hahaha)</code>",
-    "Lick the armpits",    
-    "Lick the navel<br/><code>(OMG!!)</code>",
-    "Lick the navel<br/><code>(OMG!!)</code>",
-    "Kiss the neck",
-	"Kiss the neck",
-    "Kiss the forehead",
-	"Kiss the forehead",
-    "Kiss the cheek",
-	"Kiss the cheek",
-    "Bite the chin",
-    "Bite the chin",
-    "Spank!",
-	"Spank!",
-    "Swallow the tounge<br/><code>;))</code>",
-    "Swallow the tounge<br/><code>;))</code>",
-    "Do what you want!!!<br/><code>:\"O</code>",
-    "Lick the dick<br/><code>(:dangerous:)</code>",
-    "Kiss the dick<br/><code>:O</code>",
-    "Lay on his body",
-	"Lay on his body",
-    "Suck the dick<br/><code>:\"O !!!!</code>",
 ];
 
 //initiate app
